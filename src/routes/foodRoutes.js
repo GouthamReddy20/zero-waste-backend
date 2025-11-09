@@ -1,6 +1,6 @@
 import express from "express";
 import { authenticateToken, authorizeRole } from "../middlewares/authMiddleware.js";
-import * as foodController from "../controllers/foodcontroller.js";
+import * as foodController from "../controllers/foodController.js";
 
 const router = express.Router();
 
