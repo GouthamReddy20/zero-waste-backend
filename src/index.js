@@ -90,7 +90,7 @@ import adminRoutes from "./routes/adminRoutes.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // Resolve directory paths safely
 const __filename = fileURLToPath(import.meta.url);
